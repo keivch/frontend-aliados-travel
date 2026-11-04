@@ -4,11 +4,12 @@ import { Icon } from '@iconify/vue'
 
 <template>
   <main class="flex min-h-screen flex-col items-center justify-center bg-soft p-6 md:p-10">
-    <h1 class="mb-2 text-center text-3xl font-bold text-primary">Prueba técnica</h1>
+    <h1 class="mb-2 text-center text-3xl font-bold text-primary">
+      Mi Prueba técnica - Aliados Travel
+    </h1>
     <p class="mb-8 text-center text-gray-600">Selecciona uno de los puntos para continuar</p>
 
     <div class="flex w-full max-w-3xl flex-col gap-6 md:flex-row">
-      <!-- Punto 1 -->
       <RouterLink
         to="/sorted"
         class="group flex-1 rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition hover:border-primary hover:shadow-md"
