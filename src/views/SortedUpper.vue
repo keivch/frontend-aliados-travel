@@ -88,9 +88,16 @@ function handleFileChange(event: Event) {
 <template>
   <main class="min-h-screen bg-soft p-6 md:p-10">
     <h1 class="text-center text-2xl font-bold text-primary mb-8">Primer Punto</h1>
+    <nav class="mb-8 flex justify-center gap-4">
+      <RouterLink
+        to="/"
+        class="mr-4 rounded bg-primary px-4 py-2 text-white transition hover:bg-primary/90"
+      >
+        Inicio
+      </RouterLink>
+    </nav>
 
     <div class="mx-auto flex max-w-5xl flex-col gap-6 md:flex-row">
-      <!-- Ordenar números -->
       <section class="flex-1 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
         <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-primary">
           <Icon icon="mdi:sort-numeric-ascending" class="text-2xl" />
@@ -132,7 +139,6 @@ function handleFileChange(event: Event) {
         </div>
       </section>
 
-      <!-- Contar mayúsculas -->
       <section class="flex-1 rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
         <h2 class="mb-4 flex items-center gap-2 text-xl font-bold text-primary">
           <Icon icon="mdi:format-letter-case-upper" class="text-2xl" />
