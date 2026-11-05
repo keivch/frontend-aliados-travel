@@ -32,7 +32,7 @@ import { Icon } from '@iconify/vue'
         </span>
       </RouterLink>
 
-      <!-- Punto 2 -->
+      
       <RouterLink
         to="/Books"
         class="group flex-1 rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition hover:border-primary hover:shadow-md"
