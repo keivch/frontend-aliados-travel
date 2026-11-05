@@ -1,7 +1,7 @@
 # frontend-aliados-travel
 
 Prueba de frontend de Aliados Travel. Para descargarlo y levantarlo,
-puedo hacerlo directamente en mi computador o usando Docker.
+
 
 ## Clonar el proyecto
 
@@ -12,20 +12,20 @@ cd frontend-aliados-travel
 
 ## Levantar sin Docker
 
-Necesito tener instalado Node.js y pnpm. Desde la carpeta del proyecto, instalo
-las dependencias y levanto el servidor de desarrollo:
+Necesitas tener instalado Node.js y pnpm. Desde la carpeta del proyecto, instalas
+las dependencias y levanta el servidor de desarrollo:
 
 ```sh
 pnpm install
 pnpm dev
 ```
 
-Abro en el navegador la dirección que aparece en la consola, normalmente
+Abrir en el navegador la dirección que aparece en la consola, normalmente
 `http://localhost:5173`.
 
 ## Levantar con Docker
 
-Necesito tener Docker Desktop instalado y abierto. Construyo la imagen y luego
+Necesitas tener Docker Desktop instalado y abierto. Construyo la imagen y luego
 levanto el contenedor:
 
 ```powershell
@@ -37,4 +37,4 @@ docker build `
 docker run --rm -p 8080:80 aliados-travel
 ```
 
-Después abro `http://localhost:8080`.
+Después abrir `http://localhost:8080`.
